@@ -1,0 +1,9 @@
+@startuml example
+
+actor You as you
+control puml as puml
+
+you -> puml : Pass example.puml
+puml -> you : Return example.svg
+
+@enduml
